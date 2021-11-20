@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!-- 각 <li></li> 내부의 뒤에 내용(content)으로 .0문자를 삽입했음.
+	 내용을 넣기 위해서는 content 속성이 필수임.
+ -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<style type="text/css">
+		ul li::after {
+			content: ".0";
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+	</ul>
+</body>
+</html>

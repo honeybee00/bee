@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+	font-size: 18px;
+	padding: 1em;
+	width: 400px;
+}
+
+.title {
+	border: 5px solid #e17055; 
+	background-color: #fab1a0;
+	height: 50px;
+}
+
+.container {
+	height: 150px;
+}
+
+.sidebar {
+	border: 5px solid #00b894;
+	background-color: #55efc4;
+	width: 30%;
+	height: 94%;
+	float: left;
+}
+
+.content {
+	border: 5px solid #0984e3;
+	background-color: #74b9ff;
+	width: 64.75%;
+	height: 94%;
+	float: right;
+}

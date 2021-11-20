@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- 
+	padding: 위 우 아래 좌
+	padding: 위 [좌,우] 아래;
+	padding: [위,아래] [좌,우];
+	padding: [위,아래,좌,우] ;
+ -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<style type="text/css">
+		input {
+			width: 100px;
+			outline: none;
+			padding: 5px 10px;
+			border: 1px solid blue;
+			transition: 0.4s;
+		}
+		
+		input:focus {
+			width: 200px;
+			border-color: red;
+			}
+		
+		.red-input:focus {
+			background: springgreen;
+			color: red;
+		}
+		
+		.blue-input:focus {
+			background: springgreen;
+			color: blue;
+		}
+	
+	</style>
+</head>
+<body>
+	<input type="text">
+	<br><br>
+	<input class="red-input" value="클릭하면 빨갛게 됩니다.">
+	<input class="blue-input" value="클릭하면 파랗게 됩니다.">
+</body>
+</html>

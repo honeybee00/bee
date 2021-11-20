@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+ol li {
+	list-style-type: circle;
+	list-style-image: url("../img/circle.png");
+}
+
+ul li {
+	list-style-type: "#";
+	padding-left: 10px;
+}
+
+.first {
+	list-style-position: inside;
+}
+
+.second {
+	list-style-position: outside;
+}

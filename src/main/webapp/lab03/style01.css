@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* 전체 선택자 */
+* {
+	color: gray;
+}
+
+/* 태그 요소 선택자 */
+h1 {
+	color: red;
+}
+
+/* id 선택자 */
+#title {
+	color: red;	
+}
+
+/* class 선택자 */
+.first {
+	background-color: green;
+}
+
+.second {
+	background-color: yellow;	
+}
+
+/* 다중 선택자 */
+h1, 
+#title, .first, .second {
+	font-weight: bold;
+	font-style: italic;	
+}
+
+/* 결합(복합) 선택자 */
+div p {
+	color: blue;
+}
+
+.parent > p {
+	color: green;
+}
+

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.rgb {
+	color: rgb(255,0,0);	
+}
+
+.hex {
+	color: #0000ff;
+}
+
+.name {
+	color: green;
+}

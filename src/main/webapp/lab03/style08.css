@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+	font-size: 18px;
+	padding: 1em;
+}
+
+div {
+	width: 100px;
+	height: 50px;
+}
+
+.fixed {
+	background-color: #55efc4;
+	position: fixed;
+	top: 30px;
+	right: 30px;
+}
+
+.absolute {
+	background-color: #81ecec;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+.relative {
+	background-color: #74b9ff;
+	position: relative;
+	top: 30px;
+	left: 60px;
+}

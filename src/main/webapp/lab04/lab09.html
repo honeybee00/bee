@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!-- .fruits의 첫번째 요소가 <p></p>가 아니기 때문에 선택되지 않음 -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<style type="text/css">
+		.fruits p:nth-child(1) {
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<ul class="fruits">
+		<div>딸기</div>
+		<p>사과</p>
+		<p>망고</p>
+		<span>오렌지</span>	
+	</ul>
+</body>
+</html>

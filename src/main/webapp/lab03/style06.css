@@ -1,0 +1,49 @@
+@charset "UTF-8";
+body {
+	font-size: 18px;
+}
+
+div {
+	width: 150px;
+	height: 30px;
+	display: inline-block;
+	text-align: center;
+	margin: 10px;
+	padding-top: 10px;
+}
+
+.box1 {
+	border-style: solid;
+	border-color : blue;
+	border-width: 10px;  
+}
+
+.box2 {
+	border: 10px double red;
+}
+
+.box3 {
+	border: dotted;
+}
+
+.box4 {
+	border-style: dashed;
+}
+
+.box5 {
+	border-style: inset;
+}
+
+.box6 {
+	border-style: outset; 
+}
+
+.box7 {
+	border-style: groove;
+}
+
+.box8 {
+	border-style: ridge;	
+}
+
+
